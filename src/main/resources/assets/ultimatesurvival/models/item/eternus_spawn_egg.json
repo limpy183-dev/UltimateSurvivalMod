@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ultimatesurvival:item/eternus_spawn_egg"
+  }
+}

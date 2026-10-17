@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "ultimatesurvival:threadcutter"
+    },
+    "title": {
+      "translate": "advancements.ultimatesurvival.thread_arsenal.title"
+    },
+    "description": {
+      "translate": "advancements.ultimatesurvival.thread_arsenal.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ultimatesurvival:threadcutter"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "parent": "ultimatesurvival:eternus",
+  "rewards": {
+    "experience": 500
+  }
+}

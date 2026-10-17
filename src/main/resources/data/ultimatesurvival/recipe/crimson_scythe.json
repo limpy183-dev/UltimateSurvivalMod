@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "ultimatesurvival:stormite_ingot",
+    "D": "ultimatesurvival:blood_core",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "XXD",
+    " SX",
+    "S  "
+  ],
+  "result": {
+    "id": "ultimatesurvival:crimson_scythe"
+  }
+}

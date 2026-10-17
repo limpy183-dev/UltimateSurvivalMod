@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "ultimatesurvival:titan_heart"
+    },
+    "title": {
+      "translate": "advancements.ultimatesurvival.titan_hearts.title"
+    },
+    "description": {
+      "translate": "advancements.ultimatesurvival.titan_hearts.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ultimatesurvival:titan_heart"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "parent": "ultimatesurvival:omnarch",
+  "rewards": {
+    "experience": 100
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": "minecraft:string",
+    "X": "ultimatesurvival:eternium_ingot",
+    "D": "ultimatesurvival:star_core"
+  },
+  "pattern": [
+    "S S",
+    " X ",
+    " D "
+  ],
+  "result": {
+    "id": "ultimatesurvival:starwing_pendant"
+  }
+}

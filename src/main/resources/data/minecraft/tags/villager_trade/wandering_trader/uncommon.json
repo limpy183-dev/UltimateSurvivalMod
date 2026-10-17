@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "ultimatesurvival:tome_sharpness_7",
+    "ultimatesurvival:tome_protection_6",
+    "ultimatesurvival:tome_efficiency_7",
+    "ultimatesurvival:tome_unbreaking_6",
+    "ultimatesurvival:tome_fortune_5",
+    "ultimatesurvival:tome_looting_5",
+    "ultimatesurvival:tome_power_7",
+    "ultimatesurvival:tome_feather_falling_6",
+    "ultimatesurvival:tome_sweeping_edge_6",
+    "ultimatesurvival:tome_thorns_5",
+    "ultimatesurvival:tome_respiration_5",
+    "ultimatesurvival:tome_depth_strider_5",
+    "ultimatesurvival:tome_lure_5",
+    "ultimatesurvival:tome_luck_of_the_sea_5"
+  ]
+}

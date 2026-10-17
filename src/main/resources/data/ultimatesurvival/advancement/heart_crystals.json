@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "ultimatesurvival:heart_crystal"
+    },
+    "title": {
+      "translate": "advancements.ultimatesurvival.heart_crystals.title"
+    },
+    "description": {
+      "translate": "advancements.ultimatesurvival.heart_crystals.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ultimatesurvival:heart_crystal"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "parent": "ultimatesurvival:ender_dragon",
+  "rewards": {
+    "experience": 100
+  }
+}

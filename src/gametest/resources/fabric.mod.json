@@ -1,0 +1,13 @@
+{
+	"schemaVersion": 1,
+	"id": "ultimatesurvival-test",
+	"version": "1.0.0",
+	"name": "Ultimate Survival (tests)",
+	"environment": "client",
+	"entrypoints": {
+		"fabric-client-gametest": ["com.ultimatesurvival.test.UsmClientGameTest"]
+	},
+	"depends": {
+		"ultimatesurvival": "*"
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": "ultimatesurvival:frost_core",
+    "B": "ultimatesurvival:blight_core",
+    "S": "ultimatesurvival:star_core",
+    "I": "ultimatesurvival:eternium_ingot",
+    "N": "minecraft:nether_star",
+    "O": "ultimatesurvival:omni_core"
+  },
+  "pattern": [
+    "FBS",
+    "INI",
+    "OOO"
+  ],
+  "result": {
+    "id": "ultimatesurvival:thread_sigil"
+  }
+}

@@ -1,0 +1,539 @@
+{
+  "id": "apex_pylon",
+  "tex": [
+    128,
+    96
+  ],
+  "scale": 1.0,
+  "bones": [
+    {
+      "name": "base",
+      "parent": null,
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            36,
+            38
+          ],
+          "o": [
+            -8,
+            0,
+            -8
+          ],
+          "s": [
+            8,
+            5,
+            16
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            0,
+            63
+          ],
+          "o": [
+            0,
+            0,
+            -8
+          ],
+          "s": [
+            8,
+            5,
+            16
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            0,
+            0
+          ],
+          "o": [
+            -5,
+            5,
+            -5
+          ],
+          "s": [
+            5,
+            28,
+            10
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            30,
+            0
+          ],
+          "o": [
+            0,
+            5,
+            -5
+          ],
+          "s": [
+            5,
+            28,
+            10
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "crystal",
+      "parent": null,
+      "pivot": [
+        0,
+        40,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            60,
+            0
+          ],
+          "o": [
+            -6,
+            33,
+            -6
+          ],
+          "s": [
+            6,
+            13,
+            12
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            0,
+            38
+          ],
+          "o": [
+            0,
+            33,
+            -6
+          ],
+          "s": [
+            6,
+            13,
+            12
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "ring1",
+      "parent": null,
+      "pivot": [
+        0,
+        20,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            48,
+            63
+          ],
+          "o": [
+            11,
+            19,
+            -2
+          ],
+          "s": [
+            4,
+            4,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            64,
+            63
+          ],
+          "o": [
+            5,
+            19,
+            9
+          ],
+          "s": [
+            4,
+            4,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            80,
+            63
+          ],
+          "o": [
+            -8,
+            19,
+            9
+          ],
+          "s": [
+            4,
+            4,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            96,
+            63
+          ],
+          "o": [
+            -15,
+            19,
+            -2
+          ],
+          "s": [
+            4,
+            4,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            112,
+            63
+          ],
+          "o": [
+            -9,
+            19,
+            -13
+          ],
+          "s": [
+            4,
+            4,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            0,
+            84
+          ],
+          "o": [
+            5,
+            19,
+            -13
+          ],
+          "s": [
+            4,
+            4,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "ring2",
+      "parent": null,
+      "pivot": [
+        0,
+        30,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            16,
+            84
+          ],
+          "o": [
+            6,
+            29,
+            2
+          ],
+          "s": [
+            4,
+            4,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            32,
+            84
+          ],
+          "o": [
+            -6,
+            29,
+            6
+          ],
+          "s": [
+            4,
+            4,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            48,
+            84
+          ],
+          "o": [
+            -10,
+            29,
+            -6
+          ],
+          "s": [
+            4,
+            4,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            64,
+            84
+          ],
+          "o": [
+            2,
+            29,
+            -10
+          ],
+          "s": [
+            4,
+            4,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "bone": "ring1",
+      "when": "always",
+      "axis": "ry",
+      "fn": "spin",
+      "speed": 0.08
+    },
+    {
+      "bone": "ring2",
+      "when": "always",
+      "axis": "ry",
+      "fn": "spin",
+      "speed": -0.12
+    },
+    {
+      "bone": "crystal",
+      "when": "always",
+      "axis": "ry",
+      "fn": "spin",
+      "speed": 0.04
+    },
+    {
+      "bone": "crystal",
+      "when": "always",
+      "axis": "py",
+      "fn": "sin",
+      "speed": 0.1,
+      "amp": 1.5,
+      "phase": 0.0,
+      "off": 0.0
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.95
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -0.95
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.95
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -0.95
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.95
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -0.95
+        ]
+      ]
+    },
+    {
+      "bone": "crystal",
+      "when": "attack:beam",
+      "axis": "py",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.3,
+          4
+        ],
+        [
+          0.9,
+          4
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "crystal",
+      "when": "attack:orbs",
+      "axis": "py",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.3,
+          4
+        ],
+        [
+          0.9,
+          4
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    }
+  ]
+}

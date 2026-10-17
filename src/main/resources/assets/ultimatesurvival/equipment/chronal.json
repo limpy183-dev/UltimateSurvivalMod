@@ -1,0 +1,20 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "ultimatesurvival:chronal"
+      },
+      {
+        "texture": "ultimatesurvival:chronal_glow"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "ultimatesurvival:chronal"
+      },
+      {
+        "texture": "ultimatesurvival:chronal_glow"
+      }
+    ]
+  }
+}

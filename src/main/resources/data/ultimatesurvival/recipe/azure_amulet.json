@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": "minecraft:string",
+    "X": "ultimatesurvival:azurite_ingot",
+    "D": "ultimatesurvival:drakescale"
+  },
+  "pattern": [
+    "S S",
+    " X ",
+    " D "
+  ],
+  "result": {
+    "id": "ultimatesurvival:azure_amulet"
+  }
+}

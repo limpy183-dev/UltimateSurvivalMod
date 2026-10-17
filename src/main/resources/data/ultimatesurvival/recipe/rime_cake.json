@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:cake",
+    "minecraft:snow_block",
+    "minecraft:honey_bottle",
+    "ultimatesurvival:frost_core"
+  ],
+  "result": {
+    "id": "ultimatesurvival:rime_cake"
+  }
+}

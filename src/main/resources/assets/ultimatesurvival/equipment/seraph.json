@@ -1,0 +1,20 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "ultimatesurvival:seraph"
+      },
+      {
+        "texture": "ultimatesurvival:seraph_glow"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "ultimatesurvival:seraph"
+      },
+      {
+        "texture": "ultimatesurvival:seraph_glow"
+      }
+    ]
+  }
+}

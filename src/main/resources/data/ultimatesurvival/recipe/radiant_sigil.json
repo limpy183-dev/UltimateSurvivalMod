@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": "minecraft:sea_lantern",
+    "G": "minecraft:gold_block",
+    "C": "ultimatesurvival:void_core"
+  },
+  "pattern": [
+    "LGL",
+    "GCG",
+    "LGL"
+  ],
+  "result": {
+    "id": "ultimatesurvival:radiant_sigil"
+  }
+}

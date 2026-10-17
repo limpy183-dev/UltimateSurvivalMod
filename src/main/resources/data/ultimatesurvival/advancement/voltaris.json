@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "ultimatesurvival:storm_core"
+    },
+    "title": {
+      "translate": "advancements.ultimatesurvival.voltaris.title"
+    },
+    "description": {
+      "translate": "advancements.ultimatesurvival.voltaris.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "parent": "ultimatesurvival:ignarok",
+  "rewards": {
+    "experience": 100
+  }
+}

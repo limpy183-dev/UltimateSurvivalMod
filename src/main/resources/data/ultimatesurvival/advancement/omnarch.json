@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "ultimatesurvival:omni_core"
+    },
+    "title": {
+      "translate": "advancements.ultimatesurvival.omnarch.title"
+    },
+    "description": {
+      "translate": "advancements.ultimatesurvival.omnarch.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "parent": "ultimatesurvival:solareon",
+  "rewards": {
+    "experience": 500
+  }
+}

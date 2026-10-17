@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bread",
+    "minecraft:honey_bottle",
+    "minecraft:golden_apple",
+    "ultimatesurvival:radiant_core"
+  ],
+  "result": {
+    "id": "ultimatesurvival:dawn_bread"
+  }
+}

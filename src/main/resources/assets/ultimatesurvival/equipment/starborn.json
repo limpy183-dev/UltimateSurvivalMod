@@ -1,0 +1,20 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "ultimatesurvival:starborn"
+      },
+      {
+        "texture": "ultimatesurvival:starborn_glow"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "ultimatesurvival:starborn"
+      },
+      {
+        "texture": "ultimatesurvival:starborn_glow"
+      }
+    ]
+  }
+}

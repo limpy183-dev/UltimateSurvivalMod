@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "ultimatesurvival:aetherite_ingot",
+    "D": "ultimatesurvival:void_core",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "  D",
+    " X ",
+    "S  "
+  ],
+  "result": {
+    "id": "ultimatesurvival:singularity_staff"
+  }
+}

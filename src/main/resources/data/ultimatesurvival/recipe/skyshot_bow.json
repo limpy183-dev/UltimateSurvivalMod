@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "ultimatesurvival:azurite_ingot",
+    "D": "ultimatesurvival:drakescale",
+    "S": "minecraft:string"
+  },
+  "pattern": [
+    " XS",
+    "D S",
+    " XS"
+  ],
+  "result": {
+    "id": "ultimatesurvival:skyshot_bow"
+  }
+}

@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "com.ultimatesurvival.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"AnvilScreenMixin",
+		"CameraMixin",
+		"EquipmentLayerRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

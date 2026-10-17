@@ -1,0 +1,20 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "ultimatesurvival:voidwalker"
+      },
+      {
+        "texture": "ultimatesurvival:voidwalker_glow"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "ultimatesurvival:voidwalker"
+      },
+      {
+        "texture": "ultimatesurvival:voidwalker_glow"
+      }
+    ]
+  }
+}

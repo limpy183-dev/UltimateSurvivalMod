@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "ultimatesurvival:weave_core"
+    },
+    "title": {
+      "translate": "advancements.ultimatesurvival.eternus.title"
+    },
+    "description": {
+      "translate": "advancements.ultimatesurvival.eternus.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "parent": "ultimatesurvival:astraeus",
+  "rewards": {
+    "experience": 500
+  }
+}

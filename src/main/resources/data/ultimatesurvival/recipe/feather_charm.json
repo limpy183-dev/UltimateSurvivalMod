@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": "minecraft:feather",
+    "X": "ultimatesurvival:azurite_ingot",
+    "D": "ultimatesurvival:drakescale"
+  },
+  "pattern": [
+    " F ",
+    "FXF",
+    " D "
+  ],
+  "result": {
+    "id": "ultimatesurvival:feather_charm"
+  }
+}

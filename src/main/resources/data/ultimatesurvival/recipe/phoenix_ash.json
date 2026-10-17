@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "ultimatesurvival:cinderite_ingot",
+    "D": "ultimatesurvival:ember_core",
+    "F": "minecraft:totem_of_undying"
+  },
+  "pattern": [
+    "DXD",
+    "XFX",
+    "DXD"
+  ],
+  "result": {
+    "id": "ultimatesurvival:phoenix_ash"
+  }
+}

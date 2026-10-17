@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "ultimatesurvival:stormite_ingot",
+    "D": "ultimatesurvival:blood_core"
+  },
+  "pattern": [
+    "X X",
+    "XDX",
+    "XXX"
+  ],
+  "result": {
+    "id": "ultimatesurvival:sanguine_chestplate"
+  }
+}

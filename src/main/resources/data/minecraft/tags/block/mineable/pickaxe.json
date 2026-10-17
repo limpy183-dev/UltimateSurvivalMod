@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "ultimatesurvival:verdite_ore",
+    "ultimatesurvival:deepslate_verdite_ore",
+    "ultimatesurvival:verdite_block",
+    "ultimatesurvival:azurite_ore",
+    "ultimatesurvival:deepslate_azurite_ore",
+    "ultimatesurvival:azurite_block",
+    "ultimatesurvival:cinderite_ore",
+    "ultimatesurvival:cinderite_block",
+    "ultimatesurvival:ritual_altar",
+    "ultimatesurvival:stormite_ore",
+    "ultimatesurvival:stormite_block",
+    "ultimatesurvival:aetherite_ore",
+    "ultimatesurvival:aetherite_block",
+    "ultimatesurvival:trophy_ender_dragon",
+    "ultimatesurvival:trophy_ignarok",
+    "ultimatesurvival:trophy_voltaris",
+    "ultimatesurvival:trophy_hemorath",
+    "ultimatesurvival:trophy_chronos",
+    "ultimatesurvival:trophy_nihilus",
+    "ultimatesurvival:trophy_solareon",
+    "ultimatesurvival:trophy_omnarch",
+    "ultimatesurvival:trophy_boreus",
+    "ultimatesurvival:trophy_morbane",
+    "ultimatesurvival:trophy_astraeus",
+    "ultimatesurvival:trophy_eternus"
+  ]
+}

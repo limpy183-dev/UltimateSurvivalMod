@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": [
+    "ultimatesurvival:raw_cinderite",
+    "ultimatesurvival:cinderite_ore"
+  ],
+  "result": {
+    "id": "ultimatesurvival:cinderite_ingot"
+  },
+  "experience": 2.4,
+  "cookingtime": 180
+}

@@ -1,0 +1,20 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "ultimatesurvival:tempest"
+      },
+      {
+        "texture": "ultimatesurvival:tempest_glow"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "ultimatesurvival:tempest"
+      },
+      {
+        "texture": "ultimatesurvival:tempest_glow"
+      }
+    ]
+  }
+}

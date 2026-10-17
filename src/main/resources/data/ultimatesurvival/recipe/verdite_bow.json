@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "ultimatesurvival:verdite_ingot",
+    "S": "minecraft:string"
+  },
+  "pattern": [
+    " XS",
+    "X S",
+    " XS"
+  ],
+  "result": {
+    "id": "ultimatesurvival:verdite_bow"
+  }
+}

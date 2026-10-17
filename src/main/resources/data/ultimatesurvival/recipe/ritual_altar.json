@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "O": "minecraft:obsidian",
+    "G": "minecraft:gold_ingot",
+    "D": "minecraft:diamond"
+  },
+  "pattern": [
+    "OGO",
+    "ODO",
+    "OOO"
+  ],
+  "result": {
+    "id": "ultimatesurvival:ritual_altar"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": "minecraft:wheat"
+  },
+  "pattern": [
+    "WW",
+    "WW"
+  ],
+  "result": {
+    "id": "ultimatesurvival:hardtack",
+    "count": 4
+  }
+}

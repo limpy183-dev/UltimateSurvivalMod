@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "ultimatesurvival:aetherite_block"
+  ],
+  "result": {
+    "id": "ultimatesurvival:aetherite_ingot",
+    "count": 9
+  }
+}

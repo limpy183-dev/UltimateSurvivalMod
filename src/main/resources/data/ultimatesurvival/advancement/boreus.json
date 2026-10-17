@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "ultimatesurvival:frost_core"
+    },
+    "title": {
+      "translate": "advancements.ultimatesurvival.boreus.title"
+    },
+    "description": {
+      "translate": "advancements.ultimatesurvival.boreus.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "parent": "ultimatesurvival:omnarch",
+  "rewards": {
+    "experience": 100
+  }
+}

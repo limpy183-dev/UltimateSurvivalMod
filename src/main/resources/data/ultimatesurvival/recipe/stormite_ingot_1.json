@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "ultimatesurvival:stormite_block"
+  ],
+  "result": {
+    "id": "ultimatesurvival:stormite_ingot",
+    "count": 9
+  }
+}

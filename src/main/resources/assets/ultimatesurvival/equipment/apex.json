@@ -1,0 +1,20 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "ultimatesurvival:apex"
+      },
+      {
+        "texture": "ultimatesurvival:apex_glow"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "ultimatesurvival:apex"
+      },
+      {
+        "texture": "ultimatesurvival:apex_glow"
+      }
+    ]
+  }
+}

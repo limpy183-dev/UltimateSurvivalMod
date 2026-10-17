@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "ultimatesurvival:eternium_ingot",
+    "D": "ultimatesurvival:star_core",
+    "S": "minecraft:string"
+  },
+  "pattern": [
+    " XS",
+    "D S",
+    " XS"
+  ],
+  "result": {
+    "id": "ultimatesurvival:galaxy_bow"
+  }
+}

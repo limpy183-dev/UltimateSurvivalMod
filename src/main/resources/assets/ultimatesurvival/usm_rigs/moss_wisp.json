@@ -1,0 +1,821 @@
+{
+  "id": "moss_wisp",
+  "tex": [
+    64,
+    24
+  ],
+  "scale": 1.0,
+  "bones": [
+    {
+      "name": "body",
+      "parent": null,
+      "pivot": [
+        0,
+        9,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            0,
+            0
+          ],
+          "o": [
+            -3,
+            7,
+            -3
+          ],
+          "s": [
+            5,
+            5,
+            5
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "head",
+      "parent": "body",
+      "pivot": [
+        0,
+        11,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            20,
+            0
+          ],
+          "o": [
+            -2,
+            11,
+            -3
+          ],
+          "s": [
+            4,
+            4,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "puff0",
+      "parent": "body",
+      "pivot": [
+        0,
+        9,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            36,
+            0
+          ],
+          "o": [
+            3,
+            6,
+            -2
+          ],
+          "s": [
+            4,
+            4,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "puff1",
+      "parent": "body",
+      "pivot": [
+        0,
+        9,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            0,
+            10
+          ],
+          "o": [
+            -2,
+            8,
+            3
+          ],
+          "s": [
+            4,
+            4,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "puff2",
+      "parent": "body",
+      "pivot": [
+        0,
+        9,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            16,
+            10
+          ],
+          "o": [
+            -7,
+            6,
+            -2
+          ],
+          "s": [
+            4,
+            4,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "puff3",
+      "parent": "body",
+      "pivot": [
+        0,
+        9,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            32,
+            10
+          ],
+          "o": [
+            -2,
+            8,
+            -7
+          ],
+          "s": [
+            4,
+            4,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "bone": "puff0",
+      "when": "always",
+      "axis": "ry",
+      "fn": "sin",
+      "speed": 0.1,
+      "amp": 0.4,
+      "phase": 0,
+      "off": 0.0
+    },
+    {
+      "bone": "puff1",
+      "when": "always",
+      "axis": "ry",
+      "fn": "sin",
+      "speed": 0.1,
+      "amp": 0.4,
+      "phase": 1,
+      "off": 0.0
+    },
+    {
+      "bone": "puff2",
+      "when": "always",
+      "axis": "ry",
+      "fn": "sin",
+      "speed": 0.1,
+      "amp": 0.4,
+      "phase": 2,
+      "off": 0.0
+    },
+    {
+      "bone": "puff3",
+      "when": "always",
+      "axis": "ry",
+      "fn": "sin",
+      "speed": 0.1,
+      "amp": 0.4,
+      "phase": 3,
+      "off": 0.0
+    },
+    {
+      "bone": "head",
+      "when": "always",
+      "axis": "ry",
+      "fn": "look",
+      "mul": 1.0
+    },
+    {
+      "bone": "head",
+      "when": "always",
+      "axis": "rx",
+      "fn": "look",
+      "mul": 1.0
+    },
+    {
+      "bone": "root",
+      "when": "always",
+      "axis": "py",
+      "fn": "sin",
+      "speed": 0.14,
+      "amp": 0.9,
+      "phase": 0.0,
+      "off": 0.0
+    },
+    {
+      "bone": "body",
+      "when": "walk",
+      "axis": "rx",
+      "fn": "walk",
+      "speed": 0.0,
+      "amp": 0.2,
+      "phase": 1.5707963267948966
+    },
+    {
+      "bone": "body",
+      "when": "attack:melee",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          0.6
+        ],
+        [
+          0.6,
+          -0.6
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "head",
+      "when": "attack:fan",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          -0.5
+        ],
+        [
+          0.8,
+          -0.5
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "body",
+      "when": "attack:fan",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.25
+        ],
+        [
+          0.65,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "body",
+      "when": "attack:fan",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.25
+        ],
+        [
+          0.65,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "body",
+      "when": "attack:fan",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.25
+        ],
+        [
+          0.65,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "head",
+      "when": "attack:orbs",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          -0.5
+        ],
+        [
+          0.8,
+          -0.5
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "body",
+      "when": "attack:orbs",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.25
+        ],
+        [
+          0.65,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "body",
+      "when": "attack:orbs",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.25
+        ],
+        [
+          0.65,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "body",
+      "when": "attack:orbs",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.25
+        ],
+        [
+          0.65,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "head",
+      "when": "attack:charge",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          -0.5
+        ],
+        [
+          0.8,
+          -0.5
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "body",
+      "when": "attack:charge",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.25
+        ],
+        [
+          0.65,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "body",
+      "when": "attack:charge",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.25
+        ],
+        [
+          0.65,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "body",
+      "when": "attack:charge",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.25
+        ],
+        [
+          0.65,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "head",
+      "when": "attack:lightning",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          -0.5
+        ],
+        [
+          0.8,
+          -0.5
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "body",
+      "when": "attack:lightning",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.25
+        ],
+        [
+          0.65,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "body",
+      "when": "attack:lightning",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.25
+        ],
+        [
+          0.65,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "body",
+      "when": "attack:lightning",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.25
+        ],
+        [
+          0.65,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.7,
+          -0.1
+        ],
+        [
+          1,
+          -0.9
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.7,
+          -0.1
+        ],
+        [
+          1,
+          -0.9
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.7,
+          -0.1
+        ],
+        [
+          1,
+          -0.9
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "py",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -6
+        ]
+      ]
+    }
+  ]
+}

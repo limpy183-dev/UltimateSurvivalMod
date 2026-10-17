@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:cooked_beef",
+    "minecraft:blaze_powder",
+    "minecraft:honey_bottle",
+    "ultimatesurvival:ember_core"
+  ],
+  "result": {
+    "id": "ultimatesurvival:phoenix_feast"
+  }
+}

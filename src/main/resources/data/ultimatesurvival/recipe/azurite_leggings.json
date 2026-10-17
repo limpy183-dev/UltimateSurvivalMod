@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "ultimatesurvival:azurite_ingot",
+    "D": "ultimatesurvival:drakescale"
+  },
+  "pattern": [
+    "XXX",
+    "XDX",
+    "X X"
+  ],
+  "result": {
+    "id": "ultimatesurvival:azurite_leggings"
+  }
+}

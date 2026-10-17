@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": "minecraft:short_grass"
+  },
+  "pattern": [
+    "LL",
+    "LL"
+  ],
+  "result": {
+    "id": "ultimatesurvival:clover_charm"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": "minecraft:string",
+    "X": "ultimatesurvival:eternium_ingot",
+    "D": "ultimatesurvival:weave_core"
+  },
+  "pattern": [
+    "S S",
+    " X ",
+    " D "
+  ],
+  "result": {
+    "id": "ultimatesurvival:thread_of_fate"
+  }
+}

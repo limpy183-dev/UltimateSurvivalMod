@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "minecraft:gold_block",
+    "K": "minecraft:clock",
+    "B": "ultimatesurvival:blood_core"
+  },
+  "pattern": [
+    "GKG",
+    "KBK",
+    "GKG"
+  ],
+  "result": {
+    "id": "ultimatesurvival:chrono_sigil"
+  }
+}

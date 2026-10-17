@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:amethyst_block",
+    "I": "ultimatesurvival:eternium_ingot",
+    "C": "ultimatesurvival:blight_core"
+  },
+  "pattern": [
+    "AIA",
+    "ICI",
+    "AIA"
+  ],
+  "result": {
+    "id": "ultimatesurvival:astral_sigil"
+  }
+}

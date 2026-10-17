@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "ultimatesurvival:azurite_block"
+  ],
+  "result": {
+    "id": "ultimatesurvival:azurite_ingot",
+    "count": 9
+  }
+}

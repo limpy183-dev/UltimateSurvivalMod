@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "ultimatesurvival:aetherite_ingot",
+    "D": "ultimatesurvival:void_core"
+  },
+  "pattern": [
+    "XDX",
+    "X X"
+  ],
+  "result": {
+    "id": "ultimatesurvival:voidwalker_helmet"
+  }
+}

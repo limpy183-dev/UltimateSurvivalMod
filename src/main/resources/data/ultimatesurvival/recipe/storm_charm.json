@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "F": "minecraft:phantom_membrane",
+    "X": "ultimatesurvival:stormite_ingot",
+    "D": "ultimatesurvival:storm_core"
+  },
+  "pattern": [
+    " F ",
+    "FXF",
+    " D "
+  ],
+  "result": {
+    "id": "ultimatesurvival:storm_charm"
+  }
+}

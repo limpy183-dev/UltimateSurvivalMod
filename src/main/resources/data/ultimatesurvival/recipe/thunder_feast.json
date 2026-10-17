@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:cooked_porkchop",
+    "minecraft:golden_carrot",
+    "minecraft:honey_bottle",
+    "ultimatesurvival:storm_core"
+  ],
+  "result": {
+    "id": "ultimatesurvival:thunder_feast"
+  }
+}

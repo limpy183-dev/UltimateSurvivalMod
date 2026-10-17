@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "minecraft:fermented_spider_eye",
+    "minecraft:golden_apple",
+    "ultimatesurvival:blight_core"
+  ],
+  "result": {
+    "id": "ultimatesurvival:blight_tonic"
+  }
+}

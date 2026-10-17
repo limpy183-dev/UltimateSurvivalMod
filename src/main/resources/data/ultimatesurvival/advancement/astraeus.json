@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "ultimatesurvival:star_core"
+    },
+    "title": {
+      "translate": "advancements.ultimatesurvival.astraeus.title"
+    },
+    "description": {
+      "translate": "advancements.ultimatesurvival.astraeus.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "parent": "ultimatesurvival:morbane",
+  "rewards": {
+    "experience": 100
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "ultimatesurvival:eternium_ingot",
+    "D": "ultimatesurvival:blight_core",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "  D",
+    " X ",
+    "S  "
+  ],
+  "result": {
+    "id": "ultimatesurvival:spore_staff"
+  }
+}

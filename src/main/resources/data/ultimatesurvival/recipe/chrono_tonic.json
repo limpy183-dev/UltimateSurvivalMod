@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "minecraft:clock",
+    "minecraft:glowstone_dust",
+    "ultimatesurvival:chrono_core"
+  ],
+  "result": {
+    "id": "ultimatesurvival:chrono_tonic"
+  }
+}

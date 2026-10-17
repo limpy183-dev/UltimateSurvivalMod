@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": "ultimatesurvival:ember_core",
+    "S": "ultimatesurvival:storm_core",
+    "B": "ultimatesurvival:blood_core",
+    "C": "ultimatesurvival:chrono_core",
+    "V": "ultimatesurvival:void_core",
+    "R": "ultimatesurvival:radiant_core",
+    "N": "minecraft:netherite_ingot",
+    "G": "minecraft:nether_star"
+  },
+  "pattern": [
+    "ESB",
+    "CVR",
+    "NGN"
+  ],
+  "result": {
+    "id": "ultimatesurvival:omni_sigil"
+  }
+}

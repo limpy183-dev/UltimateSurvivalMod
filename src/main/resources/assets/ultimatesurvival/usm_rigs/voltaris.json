@@ -1,0 +1,1966 @@
+{
+  "id": "voltaris",
+  "tex": [
+    256,
+    96
+  ],
+  "scale": 1.0,
+  "bones": [
+    {
+      "name": "cloak0",
+      "parent": null,
+      "pivot": [
+        0,
+        2.0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            164,
+            67
+          ],
+          "o": [
+            -3,
+            0,
+            -3
+          ],
+          "s": [
+            6,
+            4,
+            6
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "cloak1",
+      "parent": null,
+      "pivot": [
+        0,
+        6.5,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            148,
+            50
+          ],
+          "o": [
+            -5,
+            4,
+            -5
+          ],
+          "s": [
+            10,
+            5,
+            10
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "cloak2",
+      "parent": null,
+      "pivot": [
+        0,
+        12.0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            0,
+            30
+          ],
+          "o": [
+            -7,
+            9,
+            -7
+          ],
+          "s": [
+            14,
+            6,
+            14
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "cloak3",
+      "parent": null,
+      "pivot": [
+        0,
+        18.5,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            148,
+            0
+          ],
+          "o": [
+            -9,
+            15,
+            -9
+          ],
+          "s": [
+            18,
+            7,
+            18
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "cloak4",
+      "parent": null,
+      "pivot": [
+        0,
+        26.0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            0,
+            0
+          ],
+          "o": [
+            -11,
+            22,
+            -11
+          ],
+          "s": [
+            22,
+            8,
+            22
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "torso",
+      "parent": null,
+      "pivot": [
+        0,
+        30,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            88,
+            0
+          ],
+          "o": [
+            -9,
+            30,
+            -6
+          ],
+          "s": [
+            18,
+            14,
+            12
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            220,
+            67
+          ],
+          "o": [
+            -4,
+            34,
+            -7
+          ],
+          "s": [
+            8,
+            8,
+            1
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            0,
+            50
+          ],
+          "o": [
+            -10,
+            42,
+            -7
+          ],
+          "s": [
+            20,
+            3,
+            14
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "head",
+      "parent": "torso",
+      "pivot": [
+        0,
+        45,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            56,
+            30
+          ],
+          "o": [
+            -5,
+            45,
+            -5
+          ],
+          "s": [
+            10,
+            10,
+            10
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            188,
+            67
+          ],
+          "o": [
+            -1,
+            55,
+            -1
+          ],
+          "s": [
+            2,
+            8,
+            2
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            196,
+            67
+          ],
+          "o": [
+            -7,
+            52,
+            -2
+          ],
+          "s": [
+            2,
+            6,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            208,
+            67
+          ],
+          "o": [
+            5,
+            52,
+            -2
+          ],
+          "s": [
+            2,
+            6,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "arm_r",
+      "parent": "torso",
+      "pivot": [
+        -12,
+        42,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            68,
+            50
+          ],
+          "o": [
+            -17,
+            41,
+            -5
+          ],
+          "s": [
+            10,
+            6,
+            10
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            238,
+            67
+          ],
+          "o": [
+            -13,
+            47,
+            -1
+          ],
+          "s": [
+            2,
+            6,
+            2
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            96,
+            30
+          ],
+          "o": [
+            -15,
+            28,
+            -3
+          ],
+          "s": [
+            6,
+            13,
+            6
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "forearm_r",
+      "parent": "arm_r",
+      "pivot": [
+        -12,
+        28,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            120,
+            30
+          ],
+          "o": [
+            -15,
+            15,
+            -3
+          ],
+          "s": [
+            6,
+            13,
+            6
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            36,
+            67
+          ],
+          "o": [
+            -16,
+            9,
+            -4
+          ],
+          "s": [
+            8,
+            6,
+            8
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "cloud_r",
+      "parent": null,
+      "pivot": [
+        -22,
+        38,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            188,
+            50
+          ],
+          "o": [
+            -27,
+            35,
+            -5
+          ],
+          "s": [
+            9,
+            6,
+            9
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "arm_l",
+      "parent": "torso",
+      "pivot": [
+        12,
+        42,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            108,
+            50
+          ],
+          "o": [
+            7,
+            41,
+            -5
+          ],
+          "s": [
+            10,
+            6,
+            10
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            246,
+            67
+          ],
+          "o": [
+            11,
+            47,
+            -1
+          ],
+          "s": [
+            2,
+            6,
+            2
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            144,
+            30
+          ],
+          "o": [
+            9,
+            28,
+            -3
+          ],
+          "s": [
+            6,
+            13,
+            6
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "forearm_l",
+      "parent": "arm_l",
+      "pivot": [
+        12,
+        28,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            168,
+            30
+          ],
+          "o": [
+            9,
+            15,
+            -3
+          ],
+          "s": [
+            6,
+            13,
+            6
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            68,
+            67
+          ],
+          "o": [
+            8,
+            9,
+            -4
+          ],
+          "s": [
+            8,
+            6,
+            8
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "cloud_l",
+      "parent": null,
+      "pivot": [
+        22,
+        38,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            0,
+            67
+          ],
+          "o": [
+            18,
+            35,
+            -5
+          ],
+          "s": [
+            9,
+            6,
+            9
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "orbit",
+      "parent": null,
+      "pivot": [
+        0,
+        34,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            100,
+            67
+          ],
+          "o": [
+            22,
+            36,
+            -2
+          ],
+          "s": [
+            4,
+            9,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            116,
+            67
+          ],
+          "o": [
+            -26,
+            40,
+            -2
+          ],
+          "s": [
+            4,
+            9,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            132,
+            67
+          ],
+          "o": [
+            -2,
+            32,
+            22
+          ],
+          "s": [
+            4,
+            9,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            148,
+            67
+          ],
+          "o": [
+            -2,
+            44,
+            -26
+          ],
+          "s": [
+            4,
+            9,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "orbit2",
+      "parent": null,
+      "pivot": [
+        0,
+        40,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            0,
+            82
+          ],
+          "o": [
+            13,
+            48,
+            13
+          ],
+          "s": [
+            4,
+            4,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            16,
+            82
+          ],
+          "o": [
+            -17,
+            48,
+            -17
+          ],
+          "s": [
+            4,
+            4,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            32,
+            82
+          ],
+          "o": [
+            13,
+            48,
+            -17
+          ],
+          "s": [
+            4,
+            4,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            48,
+            82
+          ],
+          "o": [
+            -17,
+            48,
+            13
+          ],
+          "s": [
+            4,
+            4,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "bone": "root",
+      "when": "always",
+      "axis": "py",
+      "fn": "sin",
+      "speed": 0.07,
+      "amp": 1.6,
+      "phase": 0.0,
+      "off": 0.0
+    },
+    {
+      "bone": "head",
+      "when": "always",
+      "axis": "ry",
+      "fn": "look",
+      "mul": 1.0
+    },
+    {
+      "bone": "head",
+      "when": "always",
+      "axis": "rx",
+      "fn": "look",
+      "mul": 1.0
+    },
+    {
+      "bone": "cloak0",
+      "when": "always",
+      "axis": "ry",
+      "fn": "spin",
+      "speed": 0.06
+    },
+    {
+      "bone": "cloak1",
+      "when": "always",
+      "axis": "ry",
+      "fn": "spin",
+      "speed": -0.065
+    },
+    {
+      "bone": "cloak2",
+      "when": "always",
+      "axis": "ry",
+      "fn": "spin",
+      "speed": 0.096
+    },
+    {
+      "bone": "cloak3",
+      "when": "always",
+      "axis": "ry",
+      "fn": "spin",
+      "speed": -0.095
+    },
+    {
+      "bone": "cloak4",
+      "when": "always",
+      "axis": "ry",
+      "fn": "spin",
+      "speed": 0.132
+    },
+    {
+      "bone": "orbit",
+      "when": "always",
+      "axis": "ry",
+      "fn": "spin",
+      "speed": 0.07
+    },
+    {
+      "bone": "orbit2",
+      "when": "always",
+      "axis": "ry",
+      "fn": "spin",
+      "speed": -0.1
+    },
+    {
+      "bone": "torso",
+      "when": "walk",
+      "axis": "rx",
+      "fn": "walk",
+      "speed": 0.0,
+      "amp": 0.22,
+      "phase": 1.5707963267948966
+    },
+    {
+      "bone": "arm_r",
+      "when": "idle",
+      "axis": "rx",
+      "fn": "sin",
+      "speed": 0.06,
+      "amp": 0.07,
+      "phase": 0.0,
+      "off": 0.0
+    },
+    {
+      "bone": "arm_r",
+      "when": "idle",
+      "axis": "rz",
+      "fn": "sin",
+      "speed": 0.05,
+      "amp": 0.05,
+      "phase": 0.0,
+      "off": 0.0
+    },
+    {
+      "bone": "cloud_r",
+      "when": "always",
+      "axis": "py",
+      "fn": "sin",
+      "speed": 0.09,
+      "amp": 1.2,
+      "phase": 0.0,
+      "off": 0.0
+    },
+    {
+      "bone": "arm_l",
+      "when": "idle",
+      "axis": "rx",
+      "fn": "sin",
+      "speed": 0.06,
+      "amp": 0.07,
+      "phase": 3.141592653589793,
+      "off": 0.0
+    },
+    {
+      "bone": "arm_l",
+      "when": "idle",
+      "axis": "rz",
+      "fn": "sin",
+      "speed": 0.05,
+      "amp": -0.05,
+      "phase": 0.0,
+      "off": 0.0
+    },
+    {
+      "bone": "cloud_l",
+      "when": "always",
+      "axis": "py",
+      "fn": "sin",
+      "speed": 0.09,
+      "amp": 1.2,
+      "phase": 1.5,
+      "off": 0.0
+    },
+    {
+      "bone": "arm_r",
+      "when": "attack:lightning",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.2,
+          -2.9
+        ],
+        [
+          0.88,
+          -2.9
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_r",
+      "when": "attack:lightning",
+      "axis": "rz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.2,
+          0.3
+        ],
+        [
+          0.88,
+          0.3
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_l",
+      "when": "attack:lightning",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.2,
+          -2.9
+        ],
+        [
+          0.88,
+          -2.9
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_l",
+      "when": "attack:lightning",
+      "axis": "rz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.2,
+          -0.3
+        ],
+        [
+          0.88,
+          -0.3
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "head",
+      "when": "attack:lightning",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.2,
+          -0.55
+        ],
+        [
+          0.88,
+          -0.55
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "attack:lightning",
+      "axis": "py",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.2,
+          5
+        ],
+        [
+          0.88,
+          5
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_r",
+      "when": "attack:gust",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          0.5
+        ],
+        [
+          0.5,
+          -1.7
+        ],
+        [
+          0.85,
+          -1.7
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_l",
+      "when": "attack:gust",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          0.5
+        ],
+        [
+          0.5,
+          -1.7
+        ],
+        [
+          0.85,
+          -1.7
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "torso",
+      "when": "attack:gust",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.45,
+          0.35
+        ],
+        [
+          0.5,
+          -0.3
+        ],
+        [
+          0.8,
+          -0.2
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_r",
+      "when": "attack:orbs",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.15,
+          -1.1
+        ],
+        [
+          0.9,
+          -1.1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_r",
+      "when": "attack:orbs",
+      "axis": "rz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.15,
+          -0.25
+        ],
+        [
+          0.9,
+          -0.25
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "forearm_r",
+      "when": "attack:orbs",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.15,
+          -0.9
+        ],
+        [
+          0.9,
+          -0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_l",
+      "when": "attack:orbs",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.15,
+          -1.1
+        ],
+        [
+          0.9,
+          -1.1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_l",
+      "when": "attack:orbs",
+      "axis": "rz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.15,
+          0.25
+        ],
+        [
+          0.9,
+          0.25
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "forearm_l",
+      "when": "attack:orbs",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.15,
+          -0.9
+        ],
+        [
+          0.9,
+          -0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_r",
+      "when": "attack:perch",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.3,
+          0.35
+        ],
+        [
+          0.9,
+          0.35
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_l",
+      "when": "attack:perch",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.3,
+          0.35
+        ],
+        [
+          0.9,
+          0.35
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "head",
+      "when": "attack:perch",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.3,
+          0.4
+        ],
+        [
+          0.9,
+          0.4
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "head",
+      "when": "attack:exposed",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.15,
+          0.65
+        ],
+        [
+          0.9,
+          0.65
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "torso",
+      "when": "attack:exposed",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.15,
+          -0.2
+        ],
+        [
+          0.9,
+          -0.2
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_r",
+      "when": "attack:exposed",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.15,
+          0.3
+        ],
+        [
+          0.9,
+          0.3
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_r",
+      "when": "attack:exposed",
+      "axis": "rz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.15,
+          0.5
+        ],
+        [
+          0.9,
+          0.5
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_l",
+      "when": "attack:exposed",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.15,
+          0.3
+        ],
+        [
+          0.9,
+          0.3
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_l",
+      "when": "attack:exposed",
+      "axis": "rz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.15,
+          -0.5
+        ],
+        [
+          0.9,
+          -0.5
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_r",
+      "when": "attack:roar",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.2,
+          -0.4
+        ],
+        [
+          0.8,
+          -0.4
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_r",
+      "when": "attack:roar",
+      "axis": "rz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.2,
+          1.0
+        ],
+        [
+          0.8,
+          1.0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_l",
+      "when": "attack:roar",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.2,
+          -0.4
+        ],
+        [
+          0.8,
+          -0.4
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_l",
+      "when": "attack:roar",
+      "axis": "rz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.2,
+          -1.0
+        ],
+        [
+          0.8,
+          -1.0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "head",
+      "when": "attack:roar",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.15,
+          -0.7
+        ],
+        [
+          0.85,
+          -0.7
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_r",
+      "when": "attack:melee",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.35,
+          -2.0
+        ],
+        [
+          0.55,
+          -0.4
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "torso",
+      "when": "attack:melee",
+      "axis": "ry",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.35,
+          0.4
+        ],
+        [
+          0.55,
+          -0.45
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_r",
+      "when": "attack:ring",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          -2.7
+        ],
+        [
+          0.6,
+          -2.7
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_l",
+      "when": "attack:ring",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          -2.7
+        ],
+        [
+          0.6,
+          -2.7
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "attack:ring",
+      "axis": "py",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          4
+        ],
+        [
+          0.58,
+          -3
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.95
+        ],
+        [
+          0.7,
+          -0.05
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.6,
+          -0.15
+        ],
+        [
+          1,
+          -0.95
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.95
+        ],
+        [
+          0.7,
+          -0.05
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.6,
+          -0.15
+        ],
+        [
+          1,
+          -0.95
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.95
+        ],
+        [
+          0.7,
+          -0.05
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.6,
+          -0.15
+        ],
+        [
+          1,
+          -0.95
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "ry",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          6.28
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "ry",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          12.5
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "py",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -16
+        ]
+      ]
+    }
+  ]
+}

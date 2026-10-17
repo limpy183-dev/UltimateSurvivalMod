@@ -1,0 +1,672 @@
+{
+  "id": "void_stalker",
+  "tex": [
+    64,
+    56
+  ],
+  "scale": 1.0,
+  "bones": [
+    {
+      "name": "body",
+      "parent": null,
+      "pivot": [
+        0,
+        30,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            32,
+            0
+          ],
+          "o": [
+            -4,
+            26,
+            -2
+          ],
+          "s": [
+            8,
+            12,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            0,
+            44
+          ],
+          "o": [
+            -5,
+            36,
+            -3
+          ],
+          "s": [
+            10,
+            2,
+            6
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "head",
+      "parent": "body",
+      "pivot": [
+        0,
+        38,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            0,
+            28
+          ],
+          "o": [
+            -4,
+            38,
+            -4
+          ],
+          "s": [
+            8,
+            8,
+            8
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            32,
+            28
+          ],
+          "o": [
+            -3,
+            46,
+            -3
+          ],
+          "s": [
+            6,
+            3,
+            6
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "arm_r",
+      "parent": "body",
+      "pivot": [
+        -6,
+        36,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            0,
+            0
+          ],
+          "o": [
+            -7,
+            10,
+            -1
+          ],
+          "s": [
+            2,
+            26,
+            2
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            32,
+            44
+          ],
+          "o": [
+            -7,
+            6,
+            -1
+          ],
+          "s": [
+            2,
+            4,
+            2
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "leg_r",
+      "parent": null,
+      "pivot": [
+        -2,
+        26,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            8,
+            0
+          ],
+          "o": [
+            -3,
+            0,
+            -1
+          ],
+          "s": [
+            2,
+            26,
+            2
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "arm_l",
+      "parent": "body",
+      "pivot": [
+        6,
+        36,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            16,
+            0
+          ],
+          "o": [
+            5,
+            10,
+            -1
+          ],
+          "s": [
+            2,
+            26,
+            2
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            40,
+            44
+          ],
+          "o": [
+            5,
+            6,
+            -1
+          ],
+          "s": [
+            2,
+            4,
+            2
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "leg_l",
+      "parent": null,
+      "pivot": [
+        2,
+        26,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            24,
+            0
+          ],
+          "o": [
+            1,
+            0,
+            -1
+          ],
+          "s": [
+            2,
+            26,
+            2
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "bone": "leg_r",
+      "when": "walk",
+      "axis": "rx",
+      "fn": "walk",
+      "speed": 0.6662,
+      "amp": 0.7,
+      "phase": 0.0
+    },
+    {
+      "bone": "leg_l",
+      "when": "walk",
+      "axis": "rx",
+      "fn": "walk",
+      "speed": 0.6662,
+      "amp": 0.7,
+      "phase": 3.141592653589793
+    },
+    {
+      "bone": "arm_l",
+      "when": "walk",
+      "axis": "rx",
+      "fn": "walk",
+      "speed": 0.6662,
+      "amp": 0.4,
+      "phase": 0.0
+    },
+    {
+      "bone": "arm_r",
+      "when": "walk",
+      "axis": "rx",
+      "fn": "walk",
+      "speed": 0.6662,
+      "amp": 0.4,
+      "phase": 3.141592653589793
+    },
+    {
+      "bone": "head",
+      "when": "always",
+      "axis": "ry",
+      "fn": "look",
+      "mul": 1.0
+    },
+    {
+      "bone": "head",
+      "when": "always",
+      "axis": "rx",
+      "fn": "look",
+      "mul": 1.0
+    },
+    {
+      "bone": "body",
+      "when": "idle",
+      "axis": "py",
+      "fn": "sin",
+      "speed": 0.08,
+      "amp": 0.4,
+      "phase": 0.0,
+      "off": 0.0
+    },
+    {
+      "bone": "arm_r",
+      "when": "attack:melee",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.35,
+          -2.3
+        ],
+        [
+          0.55,
+          -0.4
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_l",
+      "when": "attack:melee",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.45,
+          -2.0
+        ],
+        [
+          0.65,
+          -0.3
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_r",
+      "when": "attack:blink",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.3,
+          -1.5
+        ],
+        [
+          0.85,
+          -1.5
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_l",
+      "when": "attack:blink",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.3,
+          -1.5
+        ],
+        [
+          0.85,
+          -1.5
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_r",
+      "when": "attack:leech",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.3,
+          -1.5
+        ],
+        [
+          0.85,
+          -1.5
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "arm_l",
+      "when": "attack:leech",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.3,
+          -1.5
+        ],
+        [
+          0.85,
+          -1.5
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "attack:blink",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.35,
+          -0.9
+        ],
+        [
+          0.5,
+          -0.9
+        ],
+        [
+          0.65,
+          0.1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -0.9
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "attack:blink",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.35,
+          -0.9
+        ],
+        [
+          0.5,
+          -0.9
+        ],
+        [
+          0.65,
+          0.1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -0.9
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "attack:blink",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.35,
+          -0.9
+        ],
+        [
+          0.5,
+          -0.9
+        ],
+        [
+          0.65,
+          0.1
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -0.9
+        ]
+      ]
+    }
+  ]
+}

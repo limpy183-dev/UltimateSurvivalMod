@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": "minecraft:crying_obsidian",
+    "E": "minecraft:ender_eye",
+    "C": "ultimatesurvival:chrono_core"
+  },
+  "pattern": [
+    "OEO",
+    "ECE",
+    "OEO"
+  ],
+  "result": {
+    "id": "ultimatesurvival:void_sigil"
+  }
+}

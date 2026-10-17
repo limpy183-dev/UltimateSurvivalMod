@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "ultimatesurvival:verdite_ingot"
+    },
+    "title": {
+      "translate": "advancements.ultimatesurvival.verdite.title"
+    },
+    "description": {
+      "translate": "advancements.ultimatesurvival.verdite.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ultimatesurvival:verdite_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "parent": "ultimatesurvival:root"
+}

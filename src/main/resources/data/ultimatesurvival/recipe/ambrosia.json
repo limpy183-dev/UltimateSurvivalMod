@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:cooked_beef",
+    "minecraft:golden_carrot",
+    "minecraft:honey_bottle",
+    "minecraft:enchanted_golden_apple",
+    "ultimatesurvival:weave_core"
+  ],
+  "result": {
+    "id": "ultimatesurvival:ambrosia"
+  }
+}

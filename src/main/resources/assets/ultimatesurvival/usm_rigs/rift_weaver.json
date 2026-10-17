@@ -1,0 +1,979 @@
+{
+  "id": "rift_weaver",
+  "tex": [
+    64,
+    40
+  ],
+  "scale": 1.0,
+  "bones": [
+    {
+      "name": "body",
+      "parent": null,
+      "pivot": [
+        0,
+        16,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            0,
+            0
+          ],
+          "o": [
+            -4,
+            12,
+            -2
+          ],
+          "s": [
+            8,
+            8,
+            10
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "head",
+      "parent": "body",
+      "pivot": [
+        0,
+        16,
+        -2
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            36,
+            0
+          ],
+          "o": [
+            -3,
+            13,
+            -8
+          ],
+          "s": [
+            6,
+            6,
+            6
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "leg_r0",
+      "parent": "body",
+      "pivot": [
+        -4,
+        14,
+        -1
+      ],
+      "rot": [
+        0,
+        0,
+        0.6
+      ],
+      "cubes": [
+        {
+          "uv": [
+            0,
+            18
+          ],
+          "o": [
+            -16,
+            4,
+            -2
+          ],
+          "s": [
+            12,
+            2,
+            2
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "leg_l0",
+      "parent": "body",
+      "pivot": [
+        4,
+        14,
+        -1
+      ],
+      "rot": [
+        0,
+        0,
+        -0.6
+      ],
+      "cubes": [
+        {
+          "uv": [
+            28,
+            18
+          ],
+          "o": [
+            3,
+            4,
+            -2
+          ],
+          "s": [
+            12,
+            2,
+            2
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "leg_r1",
+      "parent": "body",
+      "pivot": [
+        -4,
+        14,
+        2
+      ],
+      "rot": [
+        0,
+        0,
+        0.6
+      ],
+      "cubes": [
+        {
+          "uv": [
+            0,
+            22
+          ],
+          "o": [
+            -16,
+            4,
+            1
+          ],
+          "s": [
+            12,
+            2,
+            2
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "leg_l1",
+      "parent": "body",
+      "pivot": [
+        4,
+        14,
+        2
+      ],
+      "rot": [
+        0,
+        0,
+        -0.6
+      ],
+      "cubes": [
+        {
+          "uv": [
+            28,
+            22
+          ],
+          "o": [
+            3,
+            4,
+            1
+          ],
+          "s": [
+            12,
+            2,
+            2
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "leg_r2",
+      "parent": "body",
+      "pivot": [
+        -4,
+        14,
+        5
+      ],
+      "rot": [
+        0,
+        0,
+        0.6
+      ],
+      "cubes": [
+        {
+          "uv": [
+            0,
+            26
+          ],
+          "o": [
+            -16,
+            4,
+            4
+          ],
+          "s": [
+            12,
+            2,
+            2
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "leg_l2",
+      "parent": "body",
+      "pivot": [
+        4,
+        14,
+        5
+      ],
+      "rot": [
+        0,
+        0,
+        -0.6
+      ],
+      "cubes": [
+        {
+          "uv": [
+            28,
+            26
+          ],
+          "o": [
+            3,
+            4,
+            4
+          ],
+          "s": [
+            12,
+            2,
+            2
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "rift",
+      "parent": null,
+      "pivot": [
+        0,
+        17,
+        9
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            56,
+            26
+          ],
+          "o": [
+            7,
+            16,
+            8
+          ],
+          "s": [
+            2,
+            2,
+            1
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            0,
+            30
+          ],
+          "o": [
+            5,
+            21,
+            8
+          ],
+          "s": [
+            2,
+            2,
+            1
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            6,
+            30
+          ],
+          "o": [
+            1,
+            24,
+            8
+          ],
+          "s": [
+            2,
+            2,
+            1
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            12,
+            30
+          ],
+          "o": [
+            -3,
+            24,
+            8
+          ],
+          "s": [
+            2,
+            2,
+            1
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            18,
+            30
+          ],
+          "o": [
+            -7,
+            21,
+            8
+          ],
+          "s": [
+            2,
+            2,
+            1
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            24,
+            30
+          ],
+          "o": [
+            -9,
+            16,
+            8
+          ],
+          "s": [
+            2,
+            2,
+            1
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            30,
+            30
+          ],
+          "o": [
+            -7,
+            11,
+            8
+          ],
+          "s": [
+            2,
+            2,
+            1
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            36,
+            30
+          ],
+          "o": [
+            -3,
+            8,
+            8
+          ],
+          "s": [
+            2,
+            2,
+            1
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            42,
+            30
+          ],
+          "o": [
+            1,
+            8,
+            8
+          ],
+          "s": [
+            2,
+            2,
+            1
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            48,
+            30
+          ],
+          "o": [
+            5,
+            11,
+            8
+          ],
+          "s": [
+            2,
+            2,
+            1
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "bone": "root",
+      "when": "always",
+      "axis": "py",
+      "fn": "sin",
+      "speed": 0.12,
+      "amp": 1.0,
+      "phase": 0.0,
+      "off": 0.0
+    },
+    {
+      "bone": "head",
+      "when": "always",
+      "axis": "ry",
+      "fn": "look",
+      "mul": 1.0
+    },
+    {
+      "bone": "head",
+      "when": "always",
+      "axis": "rx",
+      "fn": "look",
+      "mul": 1.0
+    },
+    {
+      "bone": "rift",
+      "when": "always",
+      "axis": "rz",
+      "fn": "spin",
+      "speed": 0.06
+    },
+    {
+      "bone": "leg_r0",
+      "when": "always",
+      "axis": "rz",
+      "fn": "sin",
+      "speed": 0.1,
+      "amp": 0.15,
+      "phase": 0.0,
+      "off": 0.0
+    },
+    {
+      "bone": "leg_l0",
+      "when": "always",
+      "axis": "rz",
+      "fn": "sin",
+      "speed": 0.1,
+      "amp": -0.15,
+      "phase": 0.0,
+      "off": 0.0
+    },
+    {
+      "bone": "leg_r1",
+      "when": "always",
+      "axis": "rz",
+      "fn": "sin",
+      "speed": 0.1,
+      "amp": 0.15,
+      "phase": 0.8,
+      "off": 0.0
+    },
+    {
+      "bone": "leg_l1",
+      "when": "always",
+      "axis": "rz",
+      "fn": "sin",
+      "speed": 0.1,
+      "amp": -0.15,
+      "phase": 0.8,
+      "off": 0.0
+    },
+    {
+      "bone": "leg_r2",
+      "when": "always",
+      "axis": "rz",
+      "fn": "sin",
+      "speed": 0.1,
+      "amp": 0.15,
+      "phase": 1.6,
+      "off": 0.0
+    },
+    {
+      "bone": "leg_l2",
+      "when": "always",
+      "axis": "rz",
+      "fn": "sin",
+      "speed": 0.1,
+      "amp": -0.15,
+      "phase": 1.6,
+      "off": 0.0
+    },
+    {
+      "bone": "body",
+      "when": "attack:melee",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          0.6
+        ],
+        [
+          0.6,
+          -0.6
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "head",
+      "when": "attack:orbs",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          -0.5
+        ],
+        [
+          0.8,
+          -0.5
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "rift",
+      "when": "attack:orbs",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.7,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "rift",
+      "when": "attack:orbs",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.7,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "rift",
+      "when": "attack:orbs",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.7,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "head",
+      "when": "attack:rifts",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          -0.5
+        ],
+        [
+          0.8,
+          -0.5
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "rift",
+      "when": "attack:rifts",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.7,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "rift",
+      "when": "attack:rifts",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.7,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "rift",
+      "when": "attack:rifts",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.7,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "head",
+      "when": "attack:fan",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          -0.5
+        ],
+        [
+          0.8,
+          -0.5
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "rift",
+      "when": "attack:fan",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.7,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "rift",
+      "when": "attack:fan",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.7,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "rift",
+      "when": "attack:fan",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.5,
+          0.5
+        ],
+        [
+          0.7,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -0.9
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -0.9
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -0.9
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+"""Progression gates, in order. A gate is 'cleared' once its boss has been defeated."""
+
+GATES = [
+    dict(id="start",        tier=1, name="The Beginning",          boss=None,
+         title="Unlocked from the start"),
+    dict(id="ender_dragon", tier=2, name="Ender Dragon",           boss="minecraft:ender_dragon",
+         title="Defeat the Ender Dragon"),
+    dict(id="ignarok",      tier=3, name="Ignarok, the Cinder Warden",    boss="ultimatesurvival:ignarok",
+         title="Defeat Ignarok"),
+    dict(id="voltaris",     tier=4, name="Voltaris, the Storm Regent",    boss="ultimatesurvival:voltaris",
+         title="Defeat Voltaris"),
+    dict(id="hemorath",     tier=4, name="Hemorath, the Crimson Matriarch", boss="ultimatesurvival:hemorath",
+         title="Defeat Hemorath"),
+    dict(id="chronos",      tier=4, name="Chronos, the Hourless",         boss="ultimatesurvival:chronos",
+         title="Defeat Chronos"),
+    dict(id="nihilus",      tier=5, name="Nihilus, Devourer of Light",    boss="ultimatesurvival:nihilus",
+         title="Defeat Nihilus"),
+    dict(id="solareon",     tier=5, name="Solareon, the Radiant Seraph",  boss="ultimatesurvival:solareon",
+         title="Defeat Solareon"),
+    dict(id="omnarch",      tier=5, name="The Omnarch, Sundered God",     boss="ultimatesurvival:omnarch",
+         title="Defeat the Omnarch"),
+    dict(id="boreus",       tier=6, name="Boreus, the Rime Tyrant",       boss="ultimatesurvival:boreus",
+         title="Defeat Boreus"),
+    dict(id="morbane",      tier=6, name="Morbane, the Blightlord",       boss="ultimatesurvival:morbane",
+         title="Defeat Morbane"),
+    dict(id="astraeus",     tier=6, name="Astraeus, the Star-Eater",      boss="ultimatesurvival:astraeus",
+         title="Defeat Astraeus"),
+    dict(id="eternus",      tier=6, name="Eternus, the Final Thread",     boss="ultimatesurvival:eternus",
+         title="Defeat Eternus"),
+]
+GATE_IDS = [g["id"] for g in GATES]

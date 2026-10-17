@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:blue_ice",
+    "A": "ultimatesurvival:aetherite_ingot",
+    "C": "ultimatesurvival:omni_core"
+  },
+  "pattern": [
+    "BAB",
+    "ACA",
+    "BAB"
+  ],
+  "result": {
+    "id": "ultimatesurvival:rime_sigil"
+  }
+}

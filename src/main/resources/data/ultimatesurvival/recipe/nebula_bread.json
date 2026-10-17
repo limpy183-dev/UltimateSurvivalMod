@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bread",
+    "minecraft:glow_berries",
+    "minecraft:honey_bottle",
+    "ultimatesurvival:star_core"
+  ],
+  "result": {
+    "id": "ultimatesurvival:nebula_bread"
+  }
+}

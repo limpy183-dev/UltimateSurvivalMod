@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "ultimatesurvival:ember_core"
+    },
+    "title": {
+      "translate": "advancements.ultimatesurvival.ignarok.title"
+    },
+    "description": {
+      "translate": "advancements.ultimatesurvival.ignarok.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "parent": "ultimatesurvival:ender_dragon",
+  "rewards": {
+    "experience": 100
+  }
+}

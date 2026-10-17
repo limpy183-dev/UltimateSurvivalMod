@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "ultimatesurvival:azurite_ingot",
+    "D": "ultimatesurvival:drakescale",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    " XD",
+    " SX",
+    "S  "
+  ],
+  "result": {
+    "id": "ultimatesurvival:recall_mirror"
+  }
+}

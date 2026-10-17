@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "ultimatesurvival:item/eternal_daggers"
+  }
+}

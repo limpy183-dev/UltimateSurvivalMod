@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bow",
+  "textures": {
+    "layer0": "ultimatesurvival:item/infinity_bow_pulling_1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "ultimatesurvival",
+	"version": "${version}",
+	"name": "Ultimate Survival",
+	"description": "A Calamity/Fargo-style progression mod: five tiers, seven bosses, tiered invaders, raised enchant limits and a Codex to track it all. Singleplayer.",
+	"authors": ["Ultimate Survival"],
+	"license": "CC0-1.0",
+	"icon": "assets/ultimatesurvival/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": ["com.ultimatesurvival.UltimateSurvival"],
+		"client": ["com.ultimatesurvival.client.UltimateSurvivalClient"]
+	},
+	"mixins": [
+		"ultimatesurvival.mixins.json",
+		{"config": "ultimatesurvival.client.mixins.json", "environment": "client"}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

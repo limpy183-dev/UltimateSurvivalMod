@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": "minecraft:string",
+    "X": "ultimatesurvival:aetherite_ingot",
+    "D": "ultimatesurvival:radiant_core"
+  },
+  "pattern": [
+    "S S",
+    " X ",
+    " D "
+  ],
+  "result": {
+    "id": "ultimatesurvival:sun_pendant"
+  }
+}

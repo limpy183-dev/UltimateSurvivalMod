@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "minecraft:nether_star",
+    "minecraft:enchanted_golden_apple",
+    "ultimatesurvival:weave_core"
+  ],
+  "result": {
+    "id": "ultimatesurvival:eternal_elixir"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "minecraft:clock",
+    "minecraft:golden_apple",
+    "ultimatesurvival:chrono_core"
+  ],
+  "result": {
+    "id": "ultimatesurvival:time_loop_elixir"
+  }
+}

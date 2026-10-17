@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "ultimatesurvival:apex_blade"
+    },
+    "title": {
+      "translate": "advancements.ultimatesurvival.apex_arsenal.title"
+    },
+    "description": {
+      "translate": "advancements.ultimatesurvival.apex_arsenal.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ultimatesurvival:apex_blade"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "parent": "ultimatesurvival:omnarch",
+  "rewards": {
+    "experience": 500
+  }
+}

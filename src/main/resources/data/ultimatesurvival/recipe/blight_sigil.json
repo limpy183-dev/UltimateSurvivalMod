@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": "minecraft:fermented_spider_eye",
+    "I": "ultimatesurvival:eternium_ingot",
+    "C": "ultimatesurvival:frost_core"
+  },
+  "pattern": [
+    "FIF",
+    "ICI",
+    "FIF"
+  ],
+  "result": {
+    "id": "ultimatesurvival:blight_sigil"
+  }
+}

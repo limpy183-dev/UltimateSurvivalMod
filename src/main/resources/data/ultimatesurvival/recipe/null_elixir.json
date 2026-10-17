@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "minecraft:golden_apple",
+    "minecraft:ender_eye",
+    "ultimatesurvival:void_core"
+  ],
+  "result": {
+    "id": "ultimatesurvival:null_elixir"
+  }
+}

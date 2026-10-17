@@ -1,0 +1,443 @@
+{
+  "id": "storm_totem",
+  "tex": [
+    128,
+    40
+  ],
+  "scale": 1.0,
+  "bones": [
+    {
+      "name": "base",
+      "parent": null,
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            72,
+            0
+          ],
+          "o": [
+            -6,
+            0,
+            -6
+          ],
+          "s": [
+            12,
+            4,
+            12
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            0,
+            0
+          ],
+          "o": [
+            -4,
+            4,
+            -4
+          ],
+          "s": [
+            8,
+            20,
+            8
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "crystal",
+      "parent": null,
+      "pivot": [
+        0,
+        30,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            32,
+            0
+          ],
+          "o": [
+            -5,
+            25,
+            -5
+          ],
+          "s": [
+            10,
+            12,
+            10
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            0,
+            28
+          ],
+          "o": [
+            -2,
+            37,
+            -2
+          ],
+          "s": [
+            4,
+            6,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "ring1",
+      "parent": null,
+      "pivot": [
+        0,
+        16,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            16,
+            28
+          ],
+          "o": [
+            9,
+            15,
+            0
+          ],
+          "s": [
+            3,
+            3,
+            3
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            28,
+            28
+          ],
+          "o": [
+            -12,
+            15,
+            0
+          ],
+          "s": [
+            3,
+            3,
+            3
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            40,
+            28
+          ],
+          "o": [
+            0,
+            15,
+            9
+          ],
+          "s": [
+            3,
+            3,
+            3
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            52,
+            28
+          ],
+          "o": [
+            0,
+            15,
+            -12
+          ],
+          "s": [
+            3,
+            3,
+            3
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "ring2",
+      "parent": null,
+      "pivot": [
+        0,
+        24,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            64,
+            28
+          ],
+          "o": [
+            7,
+            23,
+            7
+          ],
+          "s": [
+            3,
+            3,
+            3
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            76,
+            28
+          ],
+          "o": [
+            -10,
+            23,
+            -10
+          ],
+          "s": [
+            3,
+            3,
+            3
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            88,
+            28
+          ],
+          "o": [
+            7,
+            23,
+            -10
+          ],
+          "s": [
+            3,
+            3,
+            3
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            100,
+            28
+          ],
+          "o": [
+            -10,
+            23,
+            7
+          ],
+          "s": [
+            3,
+            3,
+            3
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "bone": "ring1",
+      "when": "always",
+      "axis": "ry",
+      "fn": "spin",
+      "speed": 0.09
+    },
+    {
+      "bone": "ring2",
+      "when": "always",
+      "axis": "ry",
+      "fn": "spin",
+      "speed": -0.14
+    },
+    {
+      "bone": "crystal",
+      "when": "always",
+      "axis": "ry",
+      "fn": "spin",
+      "speed": 0.03
+    },
+    {
+      "bone": "crystal",
+      "when": "always",
+      "axis": "py",
+      "fn": "sin",
+      "speed": 0.1,
+      "amp": 1.5,
+      "phase": 0.0,
+      "off": 0.0
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.95
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -0.95
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.95
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -0.95
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.95
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -0.95
+        ]
+      ]
+    },
+    {
+      "bone": "crystal",
+      "when": "attack:lightning",
+      "axis": "py",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.3,
+          4
+        ],
+        [
+          0.9,
+          4
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    }
+  ]
+}

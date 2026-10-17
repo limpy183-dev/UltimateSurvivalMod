@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": "ultimatesurvival:eternium_ingot",
+    "X": "minecraft:netherite_ingot",
+    "H": "ultimatesurvival:heart_crystal"
+  },
+  "pattern": [
+    "EXE",
+    "XHX",
+    "EXE"
+  ],
+  "result": {
+    "id": "ultimatesurvival:titan_heart"
+  }
+}

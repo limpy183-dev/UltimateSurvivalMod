@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "ultimatesurvival:stormite_ingot",
+    "D": "ultimatesurvival:chrono_core"
+  },
+  "pattern": [
+    " X ",
+    "XDX",
+    "X X"
+  ],
+  "result": {
+    "id": "ultimatesurvival:soul_lantern"
+  }
+}

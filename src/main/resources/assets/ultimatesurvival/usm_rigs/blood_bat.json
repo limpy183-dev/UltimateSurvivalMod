@@ -1,0 +1,384 @@
+{
+  "id": "blood_bat",
+  "tex": [
+    64,
+    24
+  ],
+  "scale": 1.0,
+  "bones": [
+    {
+      "name": "body",
+      "parent": null,
+      "pivot": [
+        0,
+        5,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            0,
+            0
+          ],
+          "o": [
+            -2,
+            3,
+            -2
+          ],
+          "s": [
+            4,
+            5,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "head",
+      "parent": "body",
+      "pivot": [
+        0,
+        8,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            0,
+            9
+          ],
+          "o": [
+            -2,
+            8,
+            -2
+          ],
+          "s": [
+            4,
+            4,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            16,
+            9
+          ],
+          "o": [
+            -3,
+            11,
+            0
+          ],
+          "s": [
+            2,
+            3,
+            1
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            22,
+            9
+          ],
+          "o": [
+            1,
+            11,
+            0
+          ],
+          "s": [
+            2,
+            3,
+            1
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "wing_r",
+      "parent": "body",
+      "pivot": [
+        -2,
+        7,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            16,
+            0
+          ],
+          "o": [
+            -12,
+            2,
+            0
+          ],
+          "s": [
+            10,
+            8,
+            1
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            28,
+            9
+          ],
+          "o": [
+            -12,
+            9,
+            0
+          ],
+          "s": [
+            10,
+            1,
+            1
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "wing_l",
+      "parent": "body",
+      "pivot": [
+        2,
+        7,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            38,
+            0
+          ],
+          "o": [
+            2,
+            2,
+            0
+          ],
+          "s": [
+            10,
+            8,
+            1
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            0,
+            17
+          ],
+          "o": [
+            2,
+            9,
+            0
+          ],
+          "s": [
+            10,
+            1,
+            1
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "bone": "head",
+      "when": "always",
+      "axis": "ry",
+      "fn": "look",
+      "mul": 1.0
+    },
+    {
+      "bone": "head",
+      "when": "always",
+      "axis": "rx",
+      "fn": "look",
+      "mul": 1.0
+    },
+    {
+      "bone": "wing_r",
+      "when": "always",
+      "axis": "rz",
+      "fn": "sin",
+      "speed": 0.7,
+      "amp": 0.8,
+      "phase": 0.0,
+      "off": 0.0
+    },
+    {
+      "bone": "wing_l",
+      "when": "always",
+      "axis": "rz",
+      "fn": "sin",
+      "speed": 0.7,
+      "amp": -0.8,
+      "phase": 0.0,
+      "off": 0.0
+    },
+    {
+      "bone": "body",
+      "when": "always",
+      "axis": "py",
+      "fn": "sin",
+      "speed": 0.35,
+      "amp": 0.8,
+      "phase": 0.0,
+      "off": 0.0
+    },
+    {
+      "bone": "body",
+      "when": "attack:melee",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          0.5
+        ],
+        [
+          0.6,
+          -0.5
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -0.9
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -0.9
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -0.9
+        ]
+      ]
+    }
+  ]
+}

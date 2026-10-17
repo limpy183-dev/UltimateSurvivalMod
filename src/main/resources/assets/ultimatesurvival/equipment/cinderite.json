@@ -1,0 +1,20 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "ultimatesurvival:cinderite"
+      },
+      {
+        "texture": "ultimatesurvival:cinderite_glow"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "ultimatesurvival:cinderite"
+      },
+      {
+        "texture": "ultimatesurvival:cinderite_glow"
+      }
+    ]
+  }
+}

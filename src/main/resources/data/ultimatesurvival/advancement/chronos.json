@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "ultimatesurvival:chrono_core"
+    },
+    "title": {
+      "translate": "advancements.ultimatesurvival.chronos.title"
+    },
+    "description": {
+      "translate": "advancements.ultimatesurvival.chronos.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "parent": "ultimatesurvival:hemorath",
+  "rewards": {
+    "experience": 100
+  }
+}

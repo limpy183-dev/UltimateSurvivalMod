@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "ultimatesurvival:verdite_ore",
+    "ultimatesurvival:deepslate_verdite_ore",
+    "ultimatesurvival:azurite_ore",
+    "ultimatesurvival:deepslate_azurite_ore",
+    "ultimatesurvival:cinderite_ore",
+    "ultimatesurvival:stormite_ore",
+    "ultimatesurvival:aetherite_ore"
+  ]
+}

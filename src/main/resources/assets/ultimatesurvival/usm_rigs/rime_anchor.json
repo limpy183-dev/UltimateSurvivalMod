@@ -1,0 +1,647 @@
+{
+  "id": "rime_anchor",
+  "tex": [
+    128,
+    56
+  ],
+  "scale": 1.0,
+  "bones": [
+    {
+      "name": "base",
+      "parent": null,
+      "pivot": [
+        0,
+        0,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            0,
+            32
+          ],
+          "o": [
+            -7,
+            0,
+            -7
+          ],
+          "s": [
+            14,
+            4,
+            14
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            0,
+            0
+          ],
+          "o": [
+            -4,
+            4,
+            -4
+          ],
+          "s": [
+            8,
+            24,
+            8
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "crystal",
+      "parent": null,
+      "pivot": [
+        0,
+        36,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            32,
+            0
+          ],
+          "o": [
+            -6,
+            28,
+            -6
+          ],
+          "s": [
+            12,
+            14,
+            12
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            56,
+            32
+          ],
+          "o": [
+            -2,
+            42,
+            -2
+          ],
+          "s": [
+            4,
+            8,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "ring1",
+      "parent": null,
+      "pivot": [
+        0,
+        18,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            72,
+            32
+          ],
+          "o": [
+            11,
+            17,
+            0
+          ],
+          "s": [
+            3,
+            3,
+            3
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            84,
+            32
+          ],
+          "o": [
+            -14,
+            17,
+            0
+          ],
+          "s": [
+            3,
+            3,
+            3
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            96,
+            32
+          ],
+          "o": [
+            0,
+            17,
+            11
+          ],
+          "s": [
+            3,
+            3,
+            3
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            108,
+            32
+          ],
+          "o": [
+            0,
+            17,
+            -14
+          ],
+          "s": [
+            3,
+            3,
+            3
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "ring2",
+      "parent": null,
+      "pivot": [
+        0,
+        30,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            0,
+            50
+          ],
+          "o": [
+            9,
+            29,
+            9
+          ],
+          "s": [
+            3,
+            3,
+            3
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            12,
+            50
+          ],
+          "o": [
+            -12,
+            29,
+            -12
+          ],
+          "s": [
+            3,
+            3,
+            3
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            24,
+            50
+          ],
+          "o": [
+            9,
+            29,
+            -12
+          ],
+          "s": [
+            3,
+            3,
+            3
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            36,
+            50
+          ],
+          "o": [
+            -12,
+            29,
+            9
+          ],
+          "s": [
+            3,
+            3,
+            3
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "bone": "ring1",
+      "when": "always",
+      "axis": "ry",
+      "fn": "spin",
+      "speed": 0.09
+    },
+    {
+      "bone": "ring2",
+      "when": "always",
+      "axis": "ry",
+      "fn": "spin",
+      "speed": -0.135
+    },
+    {
+      "bone": "crystal",
+      "when": "always",
+      "axis": "ry",
+      "fn": "spin",
+      "speed": 0.03
+    },
+    {
+      "bone": "crystal",
+      "when": "always",
+      "axis": "py",
+      "fn": "sin",
+      "speed": 0.1,
+      "amp": 1.5,
+      "phase": 0.0,
+      "off": 0.0
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.7,
+          -0.1
+        ],
+        [
+          1,
+          -0.95
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.7,
+          -0.1
+        ],
+        [
+          1,
+          -0.95
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.7,
+          -0.1
+        ],
+        [
+          1,
+          -0.95
+        ]
+      ]
+    },
+    {
+      "bone": "crystal",
+      "when": "attack:beam",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          0.3
+        ],
+        [
+          0.6,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "crystal",
+      "when": "attack:beam",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          0.3
+        ],
+        [
+          0.6,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "crystal",
+      "when": "attack:beam",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          0.3
+        ],
+        [
+          0.6,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "crystal",
+      "when": "attack:orbs",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          0.3
+        ],
+        [
+          0.6,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "crystal",
+      "when": "attack:orbs",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          0.3
+        ],
+        [
+          0.6,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "crystal",
+      "when": "attack:orbs",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          0.3
+        ],
+        [
+          0.6,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "crystal",
+      "when": "attack:fan",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          0.3
+        ],
+        [
+          0.6,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "crystal",
+      "when": "attack:fan",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          0.3
+        ],
+        [
+          0.6,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "crystal",
+      "when": "attack:fan",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          0.3
+        ],
+        [
+          0.6,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    }
+  ]
+}

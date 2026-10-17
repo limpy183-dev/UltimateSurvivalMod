@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glowstone_dust",
+    "minecraft:blaze_powder",
+    "minecraft:amethyst_shard",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "ultimatesurvival:lumen_flare",
+    "count": 3
+  }
+}

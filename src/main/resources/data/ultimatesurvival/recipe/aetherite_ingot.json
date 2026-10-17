@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": [
+    "ultimatesurvival:raw_aetherite",
+    "ultimatesurvival:aetherite_ore"
+  ],
+  "result": {
+    "id": "ultimatesurvival:aetherite_ingot"
+  },
+  "experience": 5.0,
+  "cookingtime": 250
+}

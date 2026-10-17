@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": [
+    "ultimatesurvival:raw_azurite",
+    "ultimatesurvival:azurite_ore",
+    "ultimatesurvival:deepslate_azurite_ore"
+  ],
+  "result": {
+    "id": "ultimatesurvival:azurite_ingot"
+  },
+  "experience": 1.6,
+  "cookingtime": 150
+}

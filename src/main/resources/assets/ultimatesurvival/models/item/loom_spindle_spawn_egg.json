@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ultimatesurvival:item/loom_spindle_spawn_egg"
+  }
+}

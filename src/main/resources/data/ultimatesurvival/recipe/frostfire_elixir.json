@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "minecraft:blue_ice",
+    "minecraft:golden_apple",
+    "ultimatesurvival:frost_core"
+  ],
+  "result": {
+    "id": "ultimatesurvival:frostfire_elixir"
+  }
+}

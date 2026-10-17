@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "H": "minecraft:glistering_melon_slice",
+    "B": "minecraft:glass_bottle"
+  },
+  "pattern": [
+    "H",
+    "B"
+  ],
+  "result": {
+    "id": "ultimatesurvival:healing_salve"
+  }
+}

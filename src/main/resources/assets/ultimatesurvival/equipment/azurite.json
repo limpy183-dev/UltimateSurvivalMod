@@ -1,0 +1,20 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "ultimatesurvival:azurite"
+      },
+      {
+        "texture": "ultimatesurvival:azurite_glow"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "ultimatesurvival:azurite"
+      },
+      {
+        "texture": "ultimatesurvival:azurite_glow"
+      }
+    ]
+  }
+}

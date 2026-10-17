@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "minecraft:lightning_rod",
+    "minecraft:sugar",
+    "ultimatesurvival:storm_core"
+  ],
+  "result": {
+    "id": "ultimatesurvival:storm_tonic"
+  }
+}

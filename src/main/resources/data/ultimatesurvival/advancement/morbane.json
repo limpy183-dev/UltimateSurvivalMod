@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "ultimatesurvival:blight_core"
+    },
+    "title": {
+      "translate": "advancements.ultimatesurvival.morbane.title"
+    },
+    "description": {
+      "translate": "advancements.ultimatesurvival.morbane.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "done"
+    ]
+  ],
+  "parent": "ultimatesurvival:boreus",
+  "rewards": {
+    "experience": 100
+  }
+}

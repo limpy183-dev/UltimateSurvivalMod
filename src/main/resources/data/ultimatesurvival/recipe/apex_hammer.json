@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "ultimatesurvival:aetherite_ingot",
+    "D": "ultimatesurvival:omni_core",
+    "S": "minecraft:stick"
+  },
+  "pattern": [
+    "XDX",
+    "XSX",
+    " S "
+  ],
+  "result": {
+    "id": "ultimatesurvival:apex_hammer"
+  }
+}

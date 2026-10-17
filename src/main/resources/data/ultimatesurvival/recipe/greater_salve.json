@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "ultimatesurvival:healing_salve",
+    "ultimatesurvival:healing_salve",
+    "ultimatesurvival:drakescale"
+  ],
+  "result": {
+    "id": "ultimatesurvival:greater_salve"
+  }
+}

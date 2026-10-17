@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:mushroom_stew",
+    "minecraft:brown_mushroom",
+    "minecraft:honey_bottle",
+    "ultimatesurvival:blight_core"
+  ],
+  "result": {
+    "id": "ultimatesurvival:fungal_stew"
+  }
+}

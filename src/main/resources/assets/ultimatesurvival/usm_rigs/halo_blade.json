@@ -1,0 +1,409 @@
+{
+  "id": "halo_blade",
+  "tex": [
+    64,
+    48
+  ],
+  "scale": 1.0,
+  "bones": [
+    {
+      "name": "blade",
+      "parent": null,
+      "pivot": [
+        0,
+        14,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            0,
+            0
+          ],
+          "o": [
+            -1,
+            13,
+            -17
+          ],
+          "s": [
+            2,
+            4,
+            24
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            0,
+            39
+          ],
+          "o": [
+            -1,
+            14,
+            -21
+          ],
+          "s": [
+            2,
+            2,
+            4
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            32,
+            28
+          ],
+          "o": [
+            -5,
+            12,
+            7
+          ],
+          "s": [
+            10,
+            6,
+            2
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            0,
+            28
+          ],
+          "o": [
+            -1,
+            13,
+            9
+          ],
+          "s": [
+            2,
+            4,
+            7
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            18,
+            28
+          ],
+          "o": [
+            -2,
+            12,
+            16
+          ],
+          "s": [
+            4,
+            6,
+            3
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "name": "halo",
+      "parent": null,
+      "pivot": [
+        0,
+        15,
+        0
+      ],
+      "rot": [
+        0,
+        0,
+        0
+      ],
+      "cubes": [
+        {
+          "uv": [
+            12,
+            39
+          ],
+          "o": [
+            7,
+            20,
+            -1
+          ],
+          "s": [
+            2,
+            2,
+            2
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            20,
+            39
+          ],
+          "o": [
+            3,
+            20,
+            6
+          ],
+          "s": [
+            2,
+            2,
+            2
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            28,
+            39
+          ],
+          "o": [
+            -5,
+            20,
+            6
+          ],
+          "s": [
+            2,
+            2,
+            2
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            36,
+            39
+          ],
+          "o": [
+            -9,
+            20,
+            -1
+          ],
+          "s": [
+            2,
+            2,
+            2
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            44,
+            39
+          ],
+          "o": [
+            -5,
+            20,
+            -8
+          ],
+          "s": [
+            2,
+            2,
+            2
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        },
+        {
+          "uv": [
+            52,
+            39
+          ],
+          "o": [
+            3,
+            20,
+            -8
+          ],
+          "s": [
+            2,
+            2,
+            2
+          ],
+          "inflate": 0.0,
+          "mirror": false
+        }
+      ]
+    }
+  ],
+  "rules": [
+    {
+      "bone": "root",
+      "when": "always",
+      "axis": "py",
+      "fn": "sin",
+      "speed": 0.12,
+      "amp": 1.2,
+      "phase": 0.0,
+      "off": 0.0
+    },
+    {
+      "bone": "blade",
+      "when": "always",
+      "axis": "rz",
+      "fn": "sin",
+      "speed": 0.1,
+      "amp": 0.12,
+      "phase": 0.0,
+      "off": 0.0
+    },
+    {
+      "bone": "halo",
+      "when": "always",
+      "axis": "ry",
+      "fn": "spin",
+      "speed": 0.12
+    },
+    {
+      "bone": "blade",
+      "when": "attack:charge",
+      "axis": "rz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          6.28
+        ],
+        [
+          1,
+          6.28
+        ]
+      ]
+    },
+    {
+      "bone": "blade",
+      "when": "attack:melee",
+      "axis": "rx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4,
+          0.7
+        ],
+        [
+          0.55,
+          -0.7
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sx",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -0.9
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sy",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -0.9
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "spawn",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          -0.9
+        ],
+        [
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "root",
+      "when": "dead",
+      "axis": "sz",
+      "fn": "kf",
+      "keys": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          -0.9
+        ]
+      ]
+    }
+  ]
+}

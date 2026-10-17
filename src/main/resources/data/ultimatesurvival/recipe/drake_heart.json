@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": "ultimatesurvival:drakescale",
+    "X": "ultimatesurvival:azurite_ingot",
+    "R": "minecraft:heart_of_the_sea"
+  },
+  "pattern": [
+    "DXD",
+    "XRX",
+    " X "
+  ],
+  "result": {
+    "id": "ultimatesurvival:drake_heart"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": "minecraft:lightning_rod",
+    "C": "ultimatesurvival:cinderite_ingot",
+    "E": "ultimatesurvival:ember_core"
+  },
+  "pattern": [
+    "LCL",
+    "CEC",
+    "LCL"
+  ],
+  "result": {
+    "id": "ultimatesurvival:tempest_sigil"
+  }
+}

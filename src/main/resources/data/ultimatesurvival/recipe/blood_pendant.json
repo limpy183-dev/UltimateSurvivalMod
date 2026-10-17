@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": "minecraft:string",
+    "X": "ultimatesurvival:stormite_ingot",
+    "D": "ultimatesurvival:blood_core"
+  },
+  "pattern": [
+    "S S",
+    " X ",
+    " D "
+  ],
+  "result": {
+    "id": "ultimatesurvival:blood_pendant"
+  }
+}

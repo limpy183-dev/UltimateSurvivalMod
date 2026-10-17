@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "ultimatesurvival:stormite_ingot",
+    "D": "ultimatesurvival:blood_core"
+  },
+  "pattern": [
+    "X X",
+    "D D"
+  ],
+  "result": {
+    "id": "ultimatesurvival:sanguine_boots"
+  }
+}

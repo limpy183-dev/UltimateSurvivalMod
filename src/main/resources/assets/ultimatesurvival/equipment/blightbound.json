@@ -1,0 +1,20 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "ultimatesurvival:blightbound"
+      },
+      {
+        "texture": "ultimatesurvival:blightbound_glow"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "ultimatesurvival:blightbound"
+      },
+      {
+        "texture": "ultimatesurvival:blightbound_glow"
+      }
+    ]
+  }
+}

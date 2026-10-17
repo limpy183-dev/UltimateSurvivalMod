@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": [
+    "ultimatesurvival:raw_verdite",
+    "ultimatesurvival:verdite_ore",
+    "ultimatesurvival:deepslate_verdite_ore"
+  ],
+  "result": {
+    "id": "ultimatesurvival:verdite_ingot"
+  },
+  "experience": 0.8,
+  "cookingtime": 100
+}

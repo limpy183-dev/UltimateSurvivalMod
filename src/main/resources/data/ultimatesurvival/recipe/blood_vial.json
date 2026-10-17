@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "minecraft:red_dye",
+    "minecraft:spider_eye",
+    "ultimatesurvival:blood_core"
+  ],
+  "result": {
+    "id": "ultimatesurvival:blood_vial"
+  }
+}

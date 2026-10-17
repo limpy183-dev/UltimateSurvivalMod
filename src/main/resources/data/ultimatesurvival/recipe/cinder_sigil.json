@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:blaze_rod",
+    "D": "ultimatesurvival:drakescale",
+    "G": "minecraft:ghast_tear"
+  },
+  "pattern": [
+    "BDB",
+    "DGD",
+    "BDB"
+  ],
+  "result": {
+    "id": "ultimatesurvival:cinder_sigil"
+  }
+}

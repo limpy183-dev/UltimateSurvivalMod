@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": "minecraft:redstone",
+    "X": "ultimatesurvival:azurite_ingot",
+    "D": "ultimatesurvival:drakescale"
+  },
+  "pattern": [
+    "R R",
+    "RXR",
+    " D "
+  ],
+  "result": {
+    "id": "ultimatesurvival:magnet_ring"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": "ultimatesurvival:drakescale",
+    "X": "ultimatesurvival:azurite_ingot",
+    "G": "minecraft:diamond"
+  },
+  "pattern": [
+    "DXD",
+    "XGX",
+    "DXD"
+  ],
+  "result": {
+    "id": "ultimatesurvival:heart_crystal"
+  }
+}
